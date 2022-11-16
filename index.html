@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/x-icon" href="/icon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Find out your country's neighbours</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="countries" id="scrollbar"></div>
+            <form>
+                <label for="country">Please enter the desired country</label>
+                <input id="country"/>
+            </form>
+            <div class="btn-container">
+                <button class="btn-country">Search for your country's neighbours</button>
+                <button class="btn-country btn--guess">Guess where I am</button>
+                <button class="btn-country btn--random">Get a random country</button>
+            </div>
+        <div id="error-container" class='error-container'></div>
+    </main>
+</body>
+
+</html>
