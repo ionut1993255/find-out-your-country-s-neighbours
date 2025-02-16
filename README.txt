@@ -16,7 +16,7 @@ in the desired country and it will return the same type of result as the first f
 The third functionality will choose a random country allowing the user to just explore or to just
 choose at random the country for the next vacation.
 
-Check out the custom favicon *wink *wink
+Check out the custom favicon 😉
 
 Here you can see my project in action: https://find-out-your-countrys-neighbours.netlify.app/
 
